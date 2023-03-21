@@ -6,6 +6,10 @@
   Wir haben unsere Projektidee konkretisiert. Wir haben beschlossen, ein Platform Game bzw. ein Jump-and-Run Game zu programmieren. Zuerst haben wir uns eine grobe Hintergrund (hier Hyperlink zur Hintergrundidee) Idee überlegt, welche das Design unseres Spiels bestimmt. Weiterhin haben wir über weitere Items und Charaktere im Spiel nachgedacht. Zum Beispiel wollen wir natürlich einen Helden in unser Spiel integrieren. Damit es nicht zu einfach wird, braucht dieser noch Gegenspieler, da die Welt Radioaktiv ist, sind die Gegner verseucht. Die Items sollen Münzen und Flaschen mit Heilsaft sein.
   Außerdem haben wir uns mit der Programmiersprache Python außeinandergesetzt, da wir mit dieser das Spiel programmieren werden.>
   
+  2.Stunde
+  
+  Wir haben uns beide weiter mit der Thematik beschäftigt und anschließend entschieden, mit Phyton zu arbeiten. Die nächste Woche werden wir uns also in diese Programmiersprache einarbeiten.
+  
 <h2>3. Stunde</h2>
 
 Heute haben wir unser Projekt gestartet. Dazu haben wir Python und die Library Pygame sowie VSCode (für die Visualisierung unseres Codes) installiert. 
