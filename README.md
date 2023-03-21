@@ -13,7 +13,7 @@
   <h2>3. Woche (27.02.-03.03.)</h2>
   Jeder hat sich mit Python bschäftigt, um einen relativ reibungslosen Arbeitsablauf zu garantieren. 
   
-<h2>4. Woche</h2>
+<h2>4. Woche(06.03.-10.03.</h2>
 
 Heute haben wir unser Projekt gestartet. Dazu haben wir Python und die Library Pygame sowie VSCode (für die Visualisierung unseres Codes) installiert. 
 Wir haben damit begonnen ein Display zu erstellen, in diesem wird unser Spiel nachher laufen. Außerdem haben wir einen Untergrund erstellt, der die Farbe braun hat, passen zu unserer Spielthematik, auf dem die Characktere später laufen werden. Als letztes haben wir noch die Geschwindigkeit unseres Spiels auf 60fps (frames per second) festgelget.
