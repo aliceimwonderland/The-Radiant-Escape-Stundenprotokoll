@@ -8,7 +8,7 @@
   
  <h2>2.Woche (20.02.-24.02.)</h2>
   
-  Wir haben uns beide weiter mit der Thematik beschäftigt und anschließend entschieden, mit Phyton zu arbeiten. Die nächste Woche werden wir uns also in diese Programmiersprache einarbeiten.
+  Wir haben uns beide weiter mit der Thematik beschäftigt und anschließend entschieden, mit Phyton zu arbeiten. Wir haben uns für Phyton entschieden, da uns die Programmierstruktur logischer erschien und wir uns herausfordern wollten. Die nächste Woche werden wir uns also in diese Programmiersprache einarbeiten.
   
   <h2>3. Woche (27.02.-03.03.)</h2>
   Jeder hat sich mit Python bschäftigt, um einen relativ reibungslosen Arbeitsablauf zu garantieren. Hierzu haben wir Einsteiger Videos geguckt und in Büchern gelesen, die den Anang erleichtern sollen.
