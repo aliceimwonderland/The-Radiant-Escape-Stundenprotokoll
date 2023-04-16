@@ -17,3 +17,9 @@
 
 Heute haben wir unser Projekt gestartet. Dazu haben wir Python und die Library Pygame sowie VSCode (für die Visualisierung unseres Codes) installiert. 
 Wir haben damit begonnen ein Display zu erstellen, in diesem wird unser Spiel nachher laufen. Außerdem haben wir einen Untergrund erstellt, der die Farbe braun hat, passen zu unserer Spielthematik, auf dem die Characktere später laufen werden. Als letztes haben wir noch die Geschwindigkeit unseres Spiels auf 60fps (frames per second) festgelget.
+
+<h3>Seminartag (05.04.)</h3>
+
+Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. 
+Ich habe damit begonnen, unseren Heldencharakter in das Spiel einzubauen. Diese ist eine Figur aus dem Internet. 
+Als das fertig war habe ich mit der Animation unseres Helden begonnen. Da wir am Ende nein Jump and Run Spiel haben möchten, sollte unsere Figur natürlich springen können. 
