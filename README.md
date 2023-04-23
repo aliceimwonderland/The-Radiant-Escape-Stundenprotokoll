@@ -20,6 +20,17 @@ Wir haben damit begonnen ein Display zu erstellen, in diesem wird unser Spiel na
 
 <h3>Seminartag (05.04.)</h3>
 
-Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. 
+Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. Zur Hilfe habe ich mir ein Video angeguckt, aus diesem stammt auch die Figur, und den Code für unseren Nutzen umgewandelt.
+
 Ich habe damit begonnen, unseren Heldencharakter in das Spiel einzubauen. Diese ist eine Figur aus dem Internet. 
-Als das fertig war habe ich mit der Animation unseres Helden begonnen. Da wir am Ende nein Jump and Run Spiel haben möchten, sollte unsere Figur natürlich springen können. 
+
+![image](https://user-images.githubusercontent.com/111736084/233835663-19765f3c-5403-44cc-8d7f-1e1ffc6ab41c.png)
+
+Als erstes wird die Figur installiert. Um später das Arbeiten mit dieser einfacher zu gestalten, erstelle ich ein Rechteck und lege anschließend die Startposition fest. Die Position an sich wird sich im Verlauf des Spiels natürlich immer wieder ändern. 
+
+Der nächste Schritt war, die Animation unseres Helden zu programmieren. Da wir am Ende ein Jump and Run Spiel erhalten möchten, sollte unsere Figur natürlich springen können, um später Hindernissen ausweichen zu können. 
+Um das Springen animieren zu können brauchen wir erstmal Schwerkraft (gravity). Diese ist zum Beginn des Spiels gleich null. Damit sich die Schwerkraft in unserem Spiel auch bemerkbar macht, erhöht sich diese in jedem Durchlauf des Codes. Noch beeinflusst diese Schwerkraft unsere Figur aber nicht. Den Charachter kann man mit der Schwerkraft verbinden, indem wir unsere Figur, also genau genommen das Rechteck, nehmen und dieses mit der Schwerkraft gleichsetzen. Dies führt dazu, dass bei jedem Durchlauf des Spiels die Figur eine Position nach unten "fällt".
+Da unser Held jetzt allerdings ins Nichts fällt, habe ich noch einen Grund erstellt. Dieser ist bereits farblich hervorgehoben. Nun habe ich mit einer if clause gearbeitet. Wenn die Figur an einem bestimmten Punkt im Spiel ist, wird er immer wieder auf eine gewisse Höhe zurück gesetzt. Nun fällt unser Spieler aber nicht mehr, da diese Höhe ebenfalls seine Grundposition ist. 
+Um dieses Problem zu lösen, und die Figur ebendalls steuern zu können, habe ich Tastenfunktionen eingebaut. Mit einer kann man den Character springen lassen, mit anderen nach rechts und links steuern. Nun sieht es so aus, als würde unsere Figur springen.
+
+Leider ist bei dem Schritt, dass man die Figur nach recht und links steuern kann, ein Problem aufgetreten. Ich habe diese Steuerung nach dem gleichen Prinzip wie mit der Schwerkaraft gemacht. Drückt man allerdings die entsprechende Taste für rechts, so läuft der Character kontinuierlich nach rechts und lässt sich nicht wirklich steuern, wie es bei dem Sprung der Falls ist. Drück man nun die Taste für links, bleibt die Figur stehen. Dies ist auch der Fall, drückt man erst die Taste, die nach links steuert. Die Sprungfunktion bleibt aber erhalten, die Figur kann ebenfalls während der Bewegung nach rachts oder links Sprünge ausführen.  Um das Problem zu lösen habe ich ein "elif" statt einses "if"s eingebaut, allerdings führte dies ebenfalls zu keiner Lösung. Da dieses Fiture sowieso nur zum Lernen gedacht war, ist dies nicht wieter schlimm aber sehr schade. Bei einem Jump and Run Spiel kann die Figur nur springen und der Hintergrund bewegt sich quasi endlos, das heißt ich habe, zwar ungewollt, die Funktion für diesen endlosen Hintergrund erarbeitet.
