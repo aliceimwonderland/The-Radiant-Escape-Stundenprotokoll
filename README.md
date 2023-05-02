@@ -49,6 +49,14 @@ Leider ist bei dem Schritt, dass man die Figur nach recht und links steuern kann
 
 Heute habe ich, Alicia, weiter am Spiel gearbeitet und es mit einem Hinderniss erweitert. Als erstes hat sie ein passendes Bild herausgesucht. Da wir uns für ein apokalyptisches Thema entschieden haben, ist das Hinderniss ein Fass, welches radioaktives Material enthält. Die erste Schwierigkeit bestand darin, dass das Bild nicht beim Starten des Spiels nicht angezeigt wurde. Darufhin habe ich recherchiert, doch keinen Fehler in unserem Code entdeckt. Also habe ich verschiedene Bilddateien ausprobiert, es hat aber keinen Unterschied ergeben. Schließlich bin ich am Ende selbst auf die Lösung gekommen. An einer weiteren Stelle im Code muss erneut angegeben werden, an welcher Stelle im Spiel das Bild erscheinen soll, dies hatte ich allerdings vergessen. Nachdem ich den Befehl ergänzt hatte, wurde das Hinderniss angezeigt.Anschließend habe ich das Bild an der vorgesehenen Stelle platziert und es, wie auch die Figur zuvor, zu einem rechteck umgeformt, damit die Arbeit später einfacher ist.
 
+<h3>Woche 6</h3>
+
+<h3>lWoche 7</h3>
+
+Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert.
+
+Alicia hat versucht, dass Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
+
 <h2>Spielidee</h2>
 
 Wir haben uns für ein Jump and Run Game mit der Programmiersprache Python entschieden und haben dazu passend die Spielebibiliothek Pygame installiert. Unsere Überlegung bestand aus vielen verschiedenen Aspekten,die unserer Kreativität freien Lauf gewähren sollten.
