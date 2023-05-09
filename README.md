@@ -57,6 +57,4 @@ Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee e
 
 Alicia hat versucht, dass Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
 
-<h2>Spielidee</h2>
-
 
