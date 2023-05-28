@@ -18,7 +18,7 @@
 Heute haben wir unser Projekt gestartet. Dazu haben wir Python und die Library Pygame sowie VSCode (für die Visualisierung unseres Codes) installiert. 
 Wir haben damit begonnen ein Display zu erstellen, in diesem wird unser Spiel nachher laufen. Außerdem haben wir einen Untergrund erstellt, der die Farbe braun hat, passen zu unserer Spielthematik, auf dem die Characktere später laufen werden. Als letztes haben wir noch die Geschwindigkeit unseres Spiels auf 60fps (frames per second) festgelget.
 
-<h3>Seminartag (05.04.)</h3>
+<h2>Seminartag (05.04.)</h2>
 
 Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. Zur Hilfe habe ich mir ein Video angeguckt, aus diesem stammt auch die Figur, und den Code für unseren Nutzen umgewandelt.
 
@@ -45,19 +45,19 @@ Um dieses Problem zu lösen, und die Figur ebendalls steuern zu können, habe ic
 
 Leider ist bei dem Schritt, dass man die Figur nach recht und links steuern kann, ein Problem aufgetreten. Ich habe diese Steuerung nach dem gleichen Prinzip wie mit der Schwerkaraft gemacht. Drückt man allerdings die entsprechende Taste für rechts, so läuft der Character kontinuierlich nach rechts und lässt sich nicht wirklich steuern, wie es bei dem Sprung der Falls ist. Drück man nun die Taste für links, bleibt die Figur stehen. Dies ist auch der Fall, drückt man erst die Taste, die nach links steuert. Die Sprungfunktion bleibt aber erhalten, die Figur kann ebenfalls während der Bewegung nach rachts oder links Sprünge ausführen.  Um das Problem zu lösen habe ich ein "elif" statt einses "if"s eingebaut, allerdings führte dies ebenfalls zu keiner Lösung. Da dieses Fiture sowieso nur zum Lernen gedacht war, ist dies nicht wieter schlimm aber sehr schade. Bei einem Jump and Run Spiel kann die Figur nur springen und der Hintergrund bewegt sich quasi endlos, das heißt ich habe, zwar ungewollt, die Funktion für diesen endlosen Hintergrund erarbeitet.
 
-<h3>25.4.</h3>
+<h2>25.4.</h2>
 
 Heute habe ich, Alicia, weiter am Spiel gearbeitet und es mit einem Hinderniss erweitert. Als erstes hat sie ein passendes Bild herausgesucht. Da wir uns für ein apokalyptisches Thema entschieden haben, ist das Hinderniss ein Fass, welches radioaktives Material enthält. Die erste Schwierigkeit bestand darin, dass das Bild nicht beim Starten des Spiels nicht angezeigt wurde. Darufhin habe ich recherchiert, doch keinen Fehler in unserem Code entdeckt. Also habe ich verschiedene Bilddateien ausprobiert, es hat aber keinen Unterschied ergeben. Schließlich bin ich am Ende selbst auf die Lösung gekommen. An einer weiteren Stelle im Code muss erneut angegeben werden, an welcher Stelle im Spiel das Bild erscheinen soll, dies hatte ich allerdings vergessen. Nachdem ich den Befehl ergänzt hatte, wurde das Hinderniss angezeigt.Anschließend habe ich das Bild an der vorgesehenen Stelle platziert und es, wie auch die Figur zuvor, zu einem rechteck umgeformt, damit die Arbeit später einfacher ist.
 
-<h3>Woche 6</h3>
+<h2>Woche 6</h2>
 
-<h3>lWoche 7</h3>
+<h2>lWoche 7</h2>
 
 Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert.
 
 Alicia hat versucht, dass Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
 
-<h3>Woche 8 (08.05.)</h3>
+<h2>Woche 8 (08.05.)</h2>
 
 
 
