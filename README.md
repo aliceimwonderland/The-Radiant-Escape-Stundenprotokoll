@@ -18,7 +18,7 @@
 Heute haben wir unser Projekt gestartet. Dazu haben wir Python und die Library Pygame sowie VSCode (für die Visualisierung unseres Codes) installiert. 
 Wir haben damit begonnen ein Display zu erstellen, in diesem wird unser Spiel nachher laufen. Außerdem haben wir einen Untergrund erstellt, der die Farbe braun hat, passen zu unserer Spielthematik, auf dem die Characktere später laufen werden. Als letztes haben wir noch die Geschwindigkeit unseres Spiels auf 60fps (frames per second) festgelget.
 
-<h2>Seminartag (05.04.)</h2>
+<h2>Seminartag 1 (05.04.)</h2>
 
 Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. Zur Hilfe habe ich mir ein Video angeguckt, aus diesem stammt auch die Figur. Außerdem habe ich den Code für unseren Nutzen umgewandelt.
 
@@ -59,6 +59,6 @@ Alicia hat versucht, dass Problem mit der Schrift zu lösen, welche auf dem Disp
 
 <h2>Woche 8 (08.05.)</h2>
 
-
+<h2>Seminartag 2 (17.05.)</h2>
 
 
