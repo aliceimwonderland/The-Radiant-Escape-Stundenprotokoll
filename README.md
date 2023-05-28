@@ -1,4 +1,4 @@
-# Rump and Jun
+# Radiant Escape Stundenprotokoll
 
 <h2>1. Stunde (14.02.2023)</h2>
 
