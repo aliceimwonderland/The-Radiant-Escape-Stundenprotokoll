@@ -51,7 +51,7 @@ Heute habe ich, Alicia, weiter am Spiel gearbeitet und es mit einem Hinderniss e
 
 <h2>Woche 6</h2>
 
-<h2>lWoche 7</h2>
+<h2>Woche 7</h2>
 
 Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert.
 
