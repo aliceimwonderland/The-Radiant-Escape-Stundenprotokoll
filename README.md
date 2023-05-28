@@ -20,13 +20,13 @@ Wir haben damit begonnen ein Display zu erstellen, in diesem wird unser Spiel na
 
 <h2>Seminartag (05.04.)</h2>
 
-Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. Zur Hilfe habe ich mir ein Video angeguckt, aus diesem stammt auch die Figur, und den Code für unseren Nutzen umgewandelt.
+Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. Zur Hilfe habe ich mir ein Video angeguckt, aus diesem stammt auch die Figur. Außerdem habe ich den Code für unseren Nutzen umgewandelt.
 
 Ich habe damit begonnen, unseren Heldencharakter in das Spiel einzubauen. Diese ist eine Figur aus dem Internet. 
 
 ![image](https://user-images.githubusercontent.com/111736084/233835663-19765f3c-5403-44cc-8d7f-1e1ffc6ab41c.png)
 
-Als erstes wird die Figur installiert. Um später das Arbeiten mit dieser einfacher zu gestalten, erstelle ich ein Rechteck und lege anschließend die Startposition fest. Die Position an sich wird sich im Verlauf des Spiels natürlich immer wieder ändern. 
+Als erstes wird die Figur auf unserem Surface projeziert. Um später das Arbeiten mit dieser einfacher zu gestalten, erstelle ich ein Rechteck und lege anschließend die Startposition fest. Die Position an sich wird sich im Verlauf des Spiels natürlich immer wieder ändern. 
 
 Der nächste Schritt war, die Animation unseres Helden zu programmieren. Da wir am Ende ein Jump and Run Spiel erhalten möchten, sollte unsere Figur natürlich springen können, um später Hindernissen ausweichen zu können. 
 Um das Springen animieren zu können brauchen wir erstmal Schwerkraft (gravity). Diese ist zum Beginn des Spiels gleich null. Damit sich die Schwerkraft in unserem Spiel auch bemerkbar macht, erhöht sich diese in jedem Durchlauf des Codes. Noch beeinflusst diese Schwerkraft unsere Figur aber nicht. Den Charachter kann man mit der Schwerkraft verbinden, indem wir unsere Figur, also genau genommen das Rechteck, nehmen und dieses mit der Schwerkraft gleichsetzen. Dies führt dazu, dass bei jedem Durchlauf des Spiels die Figur eine Position nach unten "fällt".
