@@ -59,7 +59,11 @@ Alicia hat versucht, dass Problem mit der Schrift zu lösen, welche auf dem Disp
 
 <h2>Seminartag 2 (17.05.)</h2>
 
-<h2>Woche 8 (29.05.- 04.06.)</h2>
+<h2>Woche 8 (22.05.-28.05.)</h2>
+
+Wie haben den finalen Namen für unser Spiel ausgesucht. Bisher hieß dieses "Rump and Jun". Dieser Name war allerdings zu einfallslos, daher haben wir beschlossen das Spiel "The Radiant Escape" zu nennen. Dieser Name bezieht sich sowohl auf die Art unseres Spiels als auch auf die Hintergrundgeschiechte mit der radiaktiv versäuchten Welt.
+
+<h2>Woche 9 (29.05.- 04.06.)</h2>
 
 Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur rot, sobald eine Kollision zwischen der Figur un dem Hinderniss stattfand. Jetzt zeigt er auch "Game over!" an.
 
