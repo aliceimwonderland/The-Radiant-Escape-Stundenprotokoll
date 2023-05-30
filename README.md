@@ -61,4 +61,19 @@ Alicia hat versucht, dass Problem mit der Schrift zu lösen, welche auf dem Disp
 
 <h2>Seminartag 2 (17.05.)</h2>
 
+<h2>Woche (29.05.- 04.06.)</h2>
+
+ ```pygame
+  
+         #Kollision
+        if character_rect.colliderect(hindernis_rect): 
+            game_active = False
+    else:
+        screen.fill('red')
+        screen.blit(score_end,end_rect)  
+  
+  ``` 
+
+
+
 
