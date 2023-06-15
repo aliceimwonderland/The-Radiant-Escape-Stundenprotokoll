@@ -104,4 +104,6 @@ Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur
   
   </details>
 
-<h2>Seminartag 3 (15.06.2023)</h2>
+<h2>Seminartag 3 (15.06.)</h2>
+
+Wir haben uns heute hauptsächlich auf die Optimierung des Endbilschirms konzentriert. Ziel war es, dass der Score, welcher bereits während des Spielens angezeigt wird, auch auf dem Endbildschirm zu sehen ist. 
