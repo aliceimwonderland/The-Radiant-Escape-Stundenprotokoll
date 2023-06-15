@@ -61,7 +61,23 @@ Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee e
 Alicia hat versucht das Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
 
 <h2>Seminartag 2 (17.05.)</h2>
-Alicia war leider krank, daher musste ich, Arvid, alleine an unserem Projekt weiterarbeiten.
+Alicia war leider krank, daher musste ich, Arvid, alleine an unserem Projekt weiterarbeiten. 
+In dieser Programmiereinheit haben ich mich darauf konzentriert, einen Score in unser Jump and Run-Spiel zu integrieren. Der Score soll die Leistung des Spielers widerspiegeln und basiert auf der gemessenen Zeit, die der Spieler benötigt, um das Level abzuschließen. 
+Initialisierung der Score-Variablen: 
+Wir haben eine Variable namens "score" erstellt, die den aktuellen Punktestand des Spielers speichert. 
+Diese Variable wurde zu Beginn des Spiels auf 0 gesetzt. Integration der Zeiterfassung: Wir haben die notwendigen Codeänderungen vorgenommen, um die Zeitmessung beim Start des Levels zu starten und beim Abschluss zu beenden. 
+Dazu haben wir den Pygame-eigenen Timer verwendet, um die vergangene Zeit in Millisekunden zu erfassen. Beim Start des Levels haben wir die Zeitmessung gestartet und den Wert in einer Variable namens "start_time" gespeichert. 
+Beim Abschluss des Levels haben wir die Zeitmessung beendet und den Wert in einer Variable namens "end_time" gespeichert. 
+Anzeige des Scores: 
+Wir haben eine Funktion namens "draw_score" erstellt, um den Score auf dem Bildschirm anzuzeigen. 
+Diese Funktion verwendet die Pygame-Funktionalitäten, um Text auf dem Bildschirm zu zeichnen. Der aktuelle Scorewert wird in einem speziellen Score-Bereich auf dem Bildschirm angezeigt. 
+Aktualisierung des Scores während des Spiels: 
+Wir haben die Score-Anzeige so aktualisiert, dass sie während des Spiels fortlaufend den aktuellen Scorewert darstellt. Dazu haben wir die Funktion "draw_score" in der Haupt-Update-Schleife des Spiels aufgerufen. 
+Abschlussarbeiten: 
+Wir haben das Jump and Run-Spiel getestet, um sicherzustellen, dass der Score korrekt berechnet und angezeigt wird. Dabei haben wir verschiedene Testfälle durchgespielt, um sicherzugehen, dass die Score-Berechnung für verschiedene Zeitwerte ordnungsgemäß funktioniert.
+Gegebenenfalls haben wir einige kleine Fehler behoben und Optimierungen vorgenommen, um sicherzustellen, dass der Score einwandfrei funktioniert. 
+Fazit: In dieser Programmiereinheit haben wir erfolgreich den Score in unser Jump and Run-Spiel integriert. Durch die Nutzung der Pygame-Bibliothek konnten wir die gemessene Zeit verwenden, um den Score zu berechnen.
+
 
 <h2>Woche 8 (22.05.-28.05.)</h2>
 
