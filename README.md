@@ -56,7 +56,7 @@ Dieses bestand darin, dass unser Hindernis nach dem Start des Spiels mit dem Bod
 
 <h2>Woche 7 (08.05. - 14.05.)</h2>
 
-Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert.
+Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert. Die Spielidee
 
 Alicia hat versucht das Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
 
