@@ -3,9 +3,8 @@
 <h2>Woche 1 (13.02. - 19.02.)</h2>
 
   
-  Wir haben unsere Projektidee konkretisiert. Wir haben beschlossen, ein Platform Game bzw. ein Jump-and-Run Game zu programmieren. Zuerst haben wir uns eine grobe Hintergrund (hier Hyperlink zur Hintergrundidee) Idee überlegt, welche das Design unseres Spiels bestimmt. Weiterhin haben wir über weitere Items und Charaktere im Spiel nachgedacht. Zum Beispiel wollen wir natürlich einen Helden in unser Spiel integrieren. Damit es nicht zu einfach wird, braucht dieser noch Gegenspieler, da die Welt Radioaktiv ist, sind die Gegner verseucht. Die Items sollen Münzen und Flaschen mit Heilsaft sein.
-  Außerdem haben wir uns mit der Programmiersprache Python außeinandergesetzt, da wir entweder mit dieser oder mit Greenfoot das Spiel programmieren werden.
-  
+  Wir konkretisierten unsere Projektidee. Wir haben uns entschieden, ein Jump'n'Run Spiel zu programmieren. Zuerst haben wir uns eine grobe Grundidee (hier Hyperlink zur Grundidee) überlegt, die das Design unseres Spiels bestimmt. Außerdem haben wir uns überlegt, welche Gegenstände und Charaktere im Spiel vorkommen sollen. Zum Beispiel wollen wir natürlich einen Helden in unser Spiel integrieren. Damit es nicht zu einfach wird, braucht dieser noch Gegner, da die Welt radioaktiv ist, sind die Gegner verseucht. Die Gegenstände sollen Münzen und Flaschen mit Heilsaft sein. 
+  Außerdem haben wir uns mit der Programmiersprache Python beschäftigt, da wir das Spiel entweder damit oder mit Greenfoot programmieren werden.
  <h2>2.Woche 2 (20.02. - 26.02.)</h2>
   
   Wir haben uns beide weiter mit der Thematik beschäftigt, diese Bestand aus dem Lesen von Büchern und dem Lernen aus dem Internet über YouTube und Co anschließend entschieden wir uns dafür, mit Phyton zu arbeiten. Wir haben uns für Phyton entschieden, da uns die Programmierstruktur logischer erschien und wir uns herausfordern wollten. Die nächste Woche werden wir uns also tiefer in diese Programmiersprache einarbeiten, dies geschieht großteils in alleiniger Arbeit.
