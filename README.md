@@ -7,7 +7,7 @@
   Außerdem haben wir uns mit der Programmiersprache Python beschäftigt, da wir das Spiel entweder damit oder mit Greenfoot programmieren werden.
  <h2>2.Woche 2 (20.02. - 26.02.)</h2>
   
-  Wir haben uns beide weiter mit der Thematik beschäftigt, diese Bestand aus dem Lesen von Büchern und dem Lernen aus dem Internet über YouTube und Co anschließend entschieden wir uns dafür, mit Phyton zu arbeiten. Wir haben uns für Phyton entschieden, da uns die Programmierstruktur logischer erschien und wir uns herausfordern wollten. Die nächste Woche werden wir uns also tiefer in diese Programmiersprache einarbeiten, dies geschieht großteils in alleiniger Arbeit.
+  Wir haben uns beide weiter mit der Thematik beschäftigt, diese Bestand aus dem Lesen von Büchern und dem Lernen aus dem Internet über YouTube und Co anschließend entschieden wir uns dafür, mit Phyton zu arbeiten. Wir haben uns für Phyton entschieden, da uns die Programmierstruktur logischer erschien und wir uns herausfordern wollten. In der nächsten Woche werden wir uns also tiefer in diese Programmiersprache einarbeiten, dies wird großteils in alleiniger Arbeit geschehen.
   
   <h2>3. Woche 3 (27.02. - 05.03.)</h2>
   Jeder hat sich wie bereits angekündigt mit Python bschäftigt, um einen relativ reibungslosen Arbeitsablauf zu garantieren. Hierzu haben wir Einsteiger Videos geguckt und in Büchern zu Python und Pygame gelesen, die den Angang erleichtern sollten. Obwohl die Arbeit wie in der letzten Woche alleine stattfand, haben wir zwischendurch unsere Arbeitsergebnisse zusammengetragen und verglichen.
@@ -61,6 +61,7 @@ Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee e
 Alicia hat versucht das Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
 
 <h2>Seminartag 2 (17.05.)</h2>
+Alicia war leider krank, daher musste ich alleine an unserem Projekt weiterarbeiten.
 
 <h2>Woche 8 (22.05.-28.05.)</h2>
 
