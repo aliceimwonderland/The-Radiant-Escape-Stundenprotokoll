@@ -52,7 +52,7 @@ Zuerst habe ich ein passendes Bild ausgesucht. Da wir uns für ein apokalyptisch
 <h2>Woche 6 (01.05. - 07.05.) </h2>
 
 Diese Woche haben wir ein neues Problem beim Praxistest des Spiels gefunden. 
-Dieses bestand darin, dass unser Hindernis nach dem Start des Spiels mit dem Boden verschmilzt, also eine rote Spur hinter sich herzieht, die nicht verschwindet. Um dieses Problem zu lösen, haben wir natürlich zuerst nach Fehlern in unserem Code gesucht, dort aber keinen Fehler gefunden. Dann haben wir im Internet recherchiert, aber auch so haben wir keinen Hinweis auf einen Fehler gefunden. Schließlich haben wir die Lösung selbst gefunden, das Problem bestand darin, dass wir zwei Farbblöcke für unseren Boden verwendet haben. Nachdem wir diese entfernt hatten, bewegte sich unser Hindernis ohne Komplikationen. 
+Dieses bestand darin, dass unser Hindernis nach dem Start des Spiels mit dem Boden verschmilzt, also eine rote Spur hinter sich herzieht, die nicht verschwindet. Um dieses Problem zu lösen, haben wir natürlich zuerst nach Fehlern in unserem Code gesucht, dort aber keinen Fehler gefunden. Dann haben wir im Internet recherchiert, aber auch so haben wir keinen Hinweis auf einen Fehler gefunden. Schließlich haben wir die Lösung selbst gefunden, das Problem bestand darin, dass wir zwei Farbblöcke für unseren Boden verwendet haben. Nachdem wir einen der Beiden entfernt hatten, bewegte sich unser Hindernis ohne Komplikationen. 
 
 <h2>Woche 7 (08.05. - 14.05.)</h2>
 
