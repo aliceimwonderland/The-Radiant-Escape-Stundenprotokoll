@@ -14,18 +14,18 @@
   
 <h2>4. Woche 4 (06.03. - 12.03.)</h2>
 
-Heute haben wir unser Projekt gestartet. Dazu haben wir Python und die Library Pygame sowie VSCode (für die Visualisierung unseres Codes) installiert. 
-Wir haben damit begonnen ein Display zu erstellen, in diesem wird unser Spiel nachher laufen. Außerdem haben wir einen Untergrund erstellt, der die Farbe braun hat, passen zu unserer Spielthematik, auf dem die Characktere später laufen werden. Als letztes haben wir noch die Geschwindigkeit unseres Spiels auf 60fps (frames per second) festgelget.
+Heute haben wir mit unserem Projekt begonnen. Dazu haben wir Python und die Pygame-Bibliothek sowie VSCode (zur Visualisierung unseres Codes) installiert. 
+Wir haben angefangen, einen Bildschirm zu erstellen, auf dem unser Spiel später laufen wird. Außerdem haben wir einen Hintergrund erstellt, der die Farbe braun hat, passend zu unserem Spielthema, auf dem die Charaktere später laufen werden. Zuletzt haben wir die Geschwindigkeit unseres Spiels auf 60fps (frames per second) eingestellt.
 
 <h2> Seminartag 1 (05.04.)</h2>
 
-Arvid war leider krank, daher habe ich, Alicia, alleine am Projekt weitergearbeitet. Zur Hilfe habe ich mir ein Video angeguckt, aus diesem stammt auch die Figur. Außerdem habe ich den Code für unseren Nutzen umgewandelt.
+Da Arvid leider krank war, habe ich, Alicia, alleine an dem Projekt weitergearbeitet. Um mir zu helfen, habe ich mir ein Video angeschaut, aus dem auch die Figur stammt. Außerdem habe ich den Code für uns umgeschrieben.
 
-Ich habe damit begonnen, unseren Heldencharakter in das Spiel einzubauen. Diese ist eine Figur aus dem Internet. 
+Ich habe angefangen, unseren Helden in das Spiel einzubauen. Es ist eine Figur aus dem Internet. 
 
 ![image](https://user-images.githubusercontent.com/111736084/233835663-19765f3c-5403-44cc-8d7f-1e1ffc6ab41c.png)
 
-Als erstes wird die Figur auf unserem Surface projeziert. Um später das Arbeiten mit dieser einfacher zu gestalten, erstelle ich ein Rechteck und lege anschließend die Startposition fest. Die Position an sich wird sich im Verlauf des Spiels natürlich immer wieder ändern. 
+Zuerst wird die Figur auf unsere Oberfläche projiziert. Um später leichter damit arbeiten zu können, erstelle ich ein Rechteck und lege die Startposition fest. Die Position selbst wird sich im Laufe des Spiels natürlich noch ändern. 
 
 Der nächste Schritt war, die Animation unseres Helden zu programmieren. Da wir am Ende ein Jump and Run Spiel erhalten möchten, sollte unsere Figur natürlich springen können, um später Hindernissen ausweichen zu können. 
 Um das Springen animieren zu können brauchen wir erstmal Schwerkraft (gravity). Diese ist zum Beginn des Spiels gleich null. Damit sich die Schwerkraft in unserem Spiel auch bemerkbar macht, erhöht sich diese in jedem Durchlauf des Codes. Noch beeinflusst diese Schwerkraft unsere Figur aber nicht. Den Charachter kann man mit der Schwerkraft verbinden, indem wir unsere Figur, also genau genommen das Rechteck, nehmen und dieses mit der Schwerkraft gleichsetzen. Dies führt dazu, dass bei jedem Durchlauf des Spiels die Figur eine Position nach unten "fällt".
@@ -42,7 +42,7 @@ Um dieses Problem zu lösen, und die Figur ebendalls steuern zu können, habe ic
 
 ![image](https://user-images.githubusercontent.com/111736084/233837348-5a2858b9-096c-4d67-a333-12354f2d686b.png)
 
-Leider ist bei dem Schritt, dass man die Figur nach recht und links steuern kann, ein Problem aufgetreten. Ich habe diese Steuerung nach dem gleichen Prinzip wie mit der Schwerkaraft gemacht. Drückt man allerdings die entsprechende Taste für rechts, so läuft der Character kontinuierlich nach rechts und lässt sich nicht wirklich steuern, wie es bei dem Sprung der Falls ist. Drück man nun die Taste für links, bleibt die Figur stehen. Dies ist auch der Fall, drückt man erst die Taste, die nach links steuert. Die Sprungfunktion bleibt aber erhalten, die Figur kann ebenfalls während der Bewegung nach rachts oder links Sprünge ausführen.  Um das Problem zu lösen habe ich ein "elif" statt einses "if"s eingebaut, allerdings führte dies ebenfalls zu keiner Lösung. Da dieses Fiture sowieso nur zum Lernen gedacht war, ist dies nicht wieter schlimm aber sehr schade. Bei einem Jump and Run Spiel kann die Figur nur springen und der Hintergrund bewegt sich quasi endlos, das heißt ich habe, zwar ungewollt, die Funktion für diesen endlosen Hintergrund erarbeitet.
+Leider ist bei dem Schritt, dass man die Figur nach recht und links steuern kann, ein Problem aufgetreten. Ich habe diese Steuerung nach dem gleichen Prinzip wie mit der Schwerkaraft gemacht. Drückt man allerdings die entsprechende Taste für rechts, so läuft der Character kontinuierlich nach rechts und lässt sich nicht wirklich steuern, wie es bei dem Sprung der Falls ist. Drück man nun die Taste für links, bleibt die Figur stehen. Dies ist auch der Fall, drückt man erst die Taste, die nach links steuert. Die Sprungfunktion bleibt aber erhalten, die Figur kann ebenfalls während der Bewegung nach rachts oder links Sprünge ausführen.  Um das Problem zu lösen habe ich ein "elif" statt einses "if"s eingebaut, allerdings führte dies ebenfalls zu keiner Lösung. Da diese Figur sowieso nur zum Lernen gedacht war, ist dies nicht weiter schlimm, aber sehr schade. Bei einem Jump and Run Spiel kann die Figur nur springen und der Hintergrund bewegt sich quasi endlos, das heißt ich habe, zwar ungewollt, die Funktion für diesen endlosen Hintergrund erarbeitet.
 
 <h2>Woche 5 (24.4. - 30.04.)</h2>
 
