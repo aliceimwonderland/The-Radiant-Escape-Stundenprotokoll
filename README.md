@@ -104,4 +104,4 @@ Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur
   
   </details>
 
-
+<h2>Seminartag 3 (15.06.2023)</h2>
