@@ -67,7 +67,7 @@ Wie haben den finalen Namen für unser Spiel ausgesucht. Bisher hieß dieses "Ru
 
 Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur rot, sobald eine Kollision zwischen der Figur un dem Hinderniss stattfand. Jetzt zeigt er auch "Game over!" an.
 
- ```pygame
+ ```python
   
          #Kollision
         if character_rect.colliderect(hindernis_rect): 
