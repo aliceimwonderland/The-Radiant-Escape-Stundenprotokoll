@@ -46,21 +46,25 @@ Leider ist bei dem Schritt, dass man die Figur nach recht und links steuern kann
 
 <h2>Woche 5 (24.4. - 30.04.)</h2>
 
-Heute habe ich, Alicia, weiter am Spiel gearbeitet und es mit einem Hinderniss erweitert. Als erstes hat sie ein passendes Bild herausgesucht. Da wir uns für ein apokalyptisches Thema entschieden haben, ist das Hinderniss ein Fass, welches radioaktives Material enthält. Die erste Schwierigkeit bestand darin, dass das Bild nicht beim Starten des Spiels nicht angezeigt wurde. Darufhin habe ich recherchiert, doch keinen Fehler in unserem Code entdeckt. Also habe ich verschiedene Bilddateien ausprobiert, es hat aber keinen Unterschied ergeben. Schließlich bin ich am Ende selbst auf die Lösung gekommen. An einer weiteren Stelle im Code muss erneut angegeben werden, an welcher Stelle im Spiel das Bild erscheinen soll, dies hatte ich allerdings vergessen. Nachdem ich den Befehl ergänzt hatte, wurde das Hinderniss angezeigt.Anschließend habe ich das Bild an der vorgesehenen Stelle platziert und es, wie auch die Figur zuvor, zu einem rechteck umgeformt, damit die Arbeit später einfacher ist.
+Heute habe ich, Alicia, an dem Spiel weitergearbeitet und es um ein Hindernis erweitert. 
+Zuerst habe ich ein passendes Bild ausgesucht. Da wir uns für ein apokalyptisches Thema entschieden haben, ist das Hindernis ein Fass mit radioaktivem Material. Die erste Schwierigkeit bestand darin, dass das Bild beim Start des Spiels nicht angezeigt wurde. Ich habe dann recherchiert, aber keinen Fehler in unserem Code gefunden. Also habe ich verschiedene Bilddateien ausprobiert, aber es gab keinen Unterschied. Schließlich bin ich selbst auf die Lösung gekommen. An einer anderen Stelle im Code muss noch einmal angegeben werden, an welcher Stelle im Spiel das Bild erscheinen soll, aber das hatte ich vergessen. Nachdem ich die Anweisung ergänzt hatte, wurde das Hindernis angezeigt, und ich habe das Bild an der vorgesehenen Stelle platziert und es, wie die Figur zuvor, in ein Rechteck verwandelt, um die Arbeit später zu erleichtern.
 
 <h2>Woche 6 (01.05. - 07.05.) </h2>
+
+Diese Woche haben wir ein neues Problem beim Praxistest des Spiels gefunden. 
+Dieses bestand darin, dass unser Hindernis nach dem Start des Spiels mit dem Boden verschmilzt, also eine rote Spur hinter sich herzieht, die nicht verschwindet. Um dieses Problem zu lösen, haben wir natürlich zuerst nach Fehlern in unserem Code gesucht, dort aber keinen Fehler gefunden. Dann haben wir im Internet recherchiert, aber auch so haben wir keinen Hinweis auf einen Fehler gefunden. Schließlich haben wir die Lösung selbst gefunden, das Problem bestand darin, dass wir zwei Farbblöcke für unseren Boden verwendet haben. Nachdem wir diese entfernt hatten, bewegte sich unser Hindernis ohne Komplikationen. 
 
 <h2>Woche 7 (08.05. - 14.05.)</h2>
 
 Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert.
 
-Alicia hat versucht, dass Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
+Alicia hat versucht das Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
 
 <h2>Seminartag 2 (17.05.)</h2>
 
 <h2>Woche 8 (22.05.-28.05.)</h2>
 
-Wie haben den finalen Namen für unser Spiel ausgesucht. Bisher hieß dieses "Rump and Jun". Dieser Name war allerdings zu einfallslos, daher haben wir beschlossen das Spiel "The Radiant Escape" zu nennen. Dieser Name bezieht sich sowohl auf die Art unseres Spiels als auch auf die Hintergrundgeschiechte mit der radiaktiv versäuchten Welt.
+Wie haben den finalen Namen für unser Spiel ausgesucht. Bisher hieß dieses "Rump and Jun". Dieser Name war allerdings zu einfallslos, daher haben wir beschlossen das Spiel "The Radiant Escape" zu nennen. Dieser Name bezieht sich sowohl auf die Art unseres Spiels als auch auf die Hintergrundgeschiechte mit der radioaktiv versäuchten Welt.
 
 <h2>Woche 9 (29.05.- 04.06.)</h2>
 
