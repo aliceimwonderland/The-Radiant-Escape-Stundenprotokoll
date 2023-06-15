@@ -56,12 +56,12 @@ Dieses bestand darin, dass unser Hindernis nach dem Start des Spiels mit dem Bod
 
 <h2>Woche 7 (08.05. - 14.05.)</h2>
 
-Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert. Die Spielidee
+Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert. Die Spielidee bestand aus 6 verschiedenen Aspekten, unsere Aufgabe war uns für jeden Bereich eine eigenerarbeitete Idee zu kreieren. Wir haben uns entschieden auf der Projektseite die Punkte: Spielname, Charaktere, Ziele, Hintergrund, Punkte und Steuerung festzuhalten. Außerdem teilten wir unser Projekt in 2 Phasen ein. 
 
 Alicia hat versucht das Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
 
 <h2>Seminartag 2 (17.05.)</h2>
-Alicia war leider krank, daher musste ich alleine an unserem Projekt weiterarbeiten.
+Alicia war leider krank, daher musste ich, Arvid, alleine an unserem Projekt weiterarbeiten.
 
 <h2>Woche 8 (22.05.-28.05.)</h2>
 
