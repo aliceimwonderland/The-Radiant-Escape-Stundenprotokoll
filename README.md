@@ -310,3 +310,25 @@ Uns ist noch ein weiteres Problem aufgefallen. Sobald das Display des Spiels ers
 
   ``` 
 </details>
+
+Unsere Figur kann mitlerweile zwar nicht mehr über den Bildschirmrand hinausspringen, die Leertaste kann allerdings dauerhaft gedrückt werden, um so problemlos alle Tonnen überspringen zu können. Um dies zu verhindern haben wir auch hier den Code von "keys.get_pressed" zu "event.type" geändert. Wir wollen nun messen, wann die Taste losgelassen wird. Erst wenn dies geschehen ist, springt die Figur.
+
+<details><summary>Code</summary>
+
+ ```python
+
+if event.type == pygame.KEYUP and event.key == pygame.K_SPACE: #bei Tastendruck und anschließendem loslassen um 20 in die Höhe
+                character_gravity = -20 
+
+  ``` 
+</details>
+
+Wir haben nun also die letzten Fehler unseres Spiels behoben, dass man jetzt ohne Probleme spielen kann. 
+
+<details><summary>finales Ergebnis</summary>
+
+![image](https://github.com/aliceimwonderland/The-Radiant-Escape-Stundenprotokoll/assets/111736084/9d6b6cb3-dcb9-4ce0-af99-501b7601371f)
+
+</details>
+
+
