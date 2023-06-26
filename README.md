@@ -254,6 +254,8 @@ Außerdem haben wir die Springbewegung unserer Figur begrenzt, damit diese nach 
 
 Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur rot, sobald eine Kollision zwischen der Figur un dem Hinderniss stattfand. Jetzt zeigt er auch "Game over!" an.
 
+<details><summary>Code</summary>
+
  ```python
   
          #Kollision
@@ -264,6 +266,7 @@ Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur
         screen.blit(score_end,end_rect)  
   
   ``` 
+</details>
 
 <details><summary>Endbildschirm</summary>
   
@@ -273,4 +276,22 @@ Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur
 
 <h2>Seminartag 3 (15.06.)</h2>
 
-Wir haben uns heute hauptsächlich auf die Optimierung des Endbilschirms konzentriert. Ziel war es, dass der Score, welcher bereits während des Spielens angezeigt wird, auch auf dem Endbildschirm zu sehen ist. 
+Wir haben uns heute hauptsächlich auf die Optimierung des Endbilschirms konzentriert. Ziel war es, dass der Score, welcher bereits während des Spielens angezeigt wird, auch auf dem Endbildschirm zu sehen ist. Dazu haben wir die "if clause" für die Kollision erweitert, so dass auch der Score angezeigt wird. Zudem haben wir den Endbildschirm um eine Nachricht ergänzt, so dass man das Spiel erneut starten kann. Da uns das Design noch nicht ganz überzeugt hat, haben wir das Farbschema ebenfalls verändert. Dafür gibt es eine Website, auf der man sich die gewünschte Farbe aussuchen kann und anschließend die dazugehörenden Nummern für den code erhält.
+
+<details><summary>Code</summary>
+
+ ```python
+
+score_final = font.render(f'Score: {score}',False,(245,177,217)) #der erreichte Score wird angezeigt
+        final_rect = score_final.get_rect(center = (425,350))    #rstellung eines Rechtecks für den finalen Score 
+        screen.blit(score_final,final_rect)
+        screen.blit(end_message,message_rect) #eine fianle Nachricht wird angezeigt, die Anweisungen zum Neustart des Spiels gibt
+
+  ``` 
+</details>
+
+<details><summary>Endbildschirm</summary>
+
+![image](https://github.com/aliceimwonderland/The-Radiant-Escape-Stundenprotokoll/assets/111736084/a48b2d9f-2fe1-4613-9108-1d90e690d0c0)
+
+</details>
