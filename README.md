@@ -150,18 +150,50 @@ elif keys[pygame.K_a]:  #bei Tastendruck um 5 nach links
 Diese Woche haben wir ein neues Problem beim Praxistest des Spiels gefunden. 
 Dieses bestand darin, dass unser Hindernis nach dem Start des Spiels mit dem Boden verschmilzt, also eine rote Spur hinter sich herzieht, die nicht verschwindet. Um dieses Problem zu lösen, haben wir natürlich zuerst nach Fehlern in unserem Code gesucht, dort aber keinen Fehler gefunden. Dann haben wir im Internet recherchiert, aber auch so haben wir keinen Hinweis auf einen Fehler gefunden. Schließlich haben wir die Lösung selbst gefunden, das Problem bestand darin, dass wir zwei Farbblöcke für unseren Boden verwendet haben. Nachdem wir einen der Beiden entfernt hatten, bewegte sich unser Hindernis ohne Komplikationen. 
 
+Außerdem haben wir mit der Programmierung unseres Scores angefangen. Der Score soll während des Spielens zu sehen sein und zählt die Sekunden, die der Spieler am Leben bleibt. In pygame gibt es dazu eine eingebaute Funktion, die die Zeit zählt.
+
+<details><summary>Code</summary>
+
+```python
+
+def display_score():
+    time = int(pygame.time.get_ticks() / 1000)  - start_time #Sekunden, die der Spieler am Leben bleibt
+    score_surface = font.render(f'Score: {time}',False,(64,64,64)) #Scoreanzeige während des Spiels
+    score_rect = score_surface.get_rect(center = (425,50)) #Formatierung zum Rechteck
+    screen.blit(score_surface, score_rect) #Score wird nun auf dem Display angezeigt
+    return time
+
+start_time = 0 #Start des Scores
+
+ ```
+ 
+</details>
+
+Leider wird der Score aber noch nicht auf dem Display angezeigt.
+
 <h2>Woche 7 (08.05. - 14.05.)</h2>
 
 Arvid hat an unserer Projektseite weitergearbeitet und die generelle Spielidee erläutert. Die Spielidee bestand aus 6 verschiedenen Aspekten, unsere Aufgabe war uns für jeden Bereich eine eigenerarbeitete Idee zu kreieren. Wir haben uns entschieden auf der Projektseite die Punkte: Spielname, Charaktere, Ziele, Hintergrund, Punkte und Steuerung festzuhalten. Außerdem teilten wir unser Projekt in 2 Phasen ein. 
 
-Alicia hat versucht das Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben.
+Alicia hat versucht das Problem mit der Schrift zu lösen, welche auf dem Display nicht sichtbar ist. Dafür hat sie recherchiert und verschiedenen Schreibmethoden ausprobiert, allerdings hat sie den Fehler bisher nicht gefunden und der Fehler bleibt weiterhin bestehen. Es ist allerdings sicher, dass es kein Schreibfehler oder Funktionsfehler ist, da diese Fehlerarten beide vom Programm angezeigt werden würden, diese allerdings ausbleiben. Später ist dann jedoch aufgefallen, dass es zwar eine Funktion gitb, dass der Score angezeigt wird, diese allerdings nur in der definition Funktion ist. Die anderen Gegnstände und Figuren (z.B. Hintergrund, Figur) haben diese Funktion aber erst in dem While-True-Loop. Wir haben dort also eine weitere Funktion hinzugefügt, und der Score wurde endlich angezeigt.
+
+<details><summary>Code</summary>
+
+```python
+
+display_score()
+
+ ```
+ 
+</details>
 
 <h2>Seminartag 2 (17.05.)</h2>
 Alicia war leider krank, daher musste ich, Arvid, alleine an unserem Projekt weiterarbeiten. <br>
-In dieser Programmiereinheit haben ich mich darauf konzentriert, einen Score in unser Jump and Run-Spiel zu integrieren. Der Score soll die Leistung des Spielers widerspiegeln und basiert auf der gemessenen Zeit, die der Spieler benötigt, um das Level abzuschließen. 
-Initialisierung der Score-Variablen: <br>
-Wir haben eine Variable namens "score" erstellt, die den aktuellen Punktestand des Spielers speichert. 
-Diese Variable wurde zu Beginn des Spiels auf 0 gesetzt. Integration der Zeiterfassung: Wir haben die notwendigen Codeänderungen vorgenommen, um die Zeitmessung beim Start des Levels zu starten und beim Abschluss zu beenden. <br>
+In dieser Programmiereinheit haben ich mich darauf konzentriert, den Score besser in unser Jump and Run-Spiel zu integrieren. 
+
+Wir haben eine Variable namens "score" erstellt, die den aktuellen Punktestand des Spielers anzeigt. 
+Diese Variable wurde zu Beginn des Spiels auf 0 gesetzt. 
+Integration der Zeiterfassung: Wir haben die notwendigen Codeänderungen vorgenommen, um die Zeitmessung beim Start des Levels zu starten und beim Abschluss zu beenden. <br>
 Dazu haben wir den Pygame-eigenen Timer verwendet, um die vergangene Zeit in Millisekunden zu erfassen. Beim Start des Levels haben wir die Zeitmessung gestartet und den Wert in einer Variable namens "start_time" gespeichert. <br>
 Beim Abschluss des Levels haben wir die Zeitmessung beendet und den Wert in einer Variable namens "end_time" gespeichert. 
 Anzeige des Scores: <br>
