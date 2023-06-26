@@ -276,7 +276,7 @@ Alicia hat an dem Game-over-Bildschirm weitergearbeitet. Bisher wurde dieser nur
 
 <h2>Seminartag 3 (15.06.)</h2>
 
-Wir haben uns heute hauptsächlich auf die Optimierung des Endbilschirms konzentriert. Ziel war es, dass der Score, welcher bereits während des Spielens angezeigt wird, auch auf dem Endbildschirm zu sehen ist. Dazu haben wir die "if clause" für die Kollision erweitert, so dass auch der Score angezeigt wird. Zudem haben wir den Endbildschirm um eine Nachricht ergänzt, so dass man das Spiel erneut starten kann. Da uns das Design noch nicht ganz überzeugt hat, haben wir das Farbschema ebenfalls verändert. Dafür gibt es eine Website, auf der man sich die gewünschte Farbe aussuchen kann und anschließend die dazugehörenden Nummern für den code erhält.
+Wir haben uns heute hauptsächlich auf die Optimierung des Endbilschirms konzentriert. Ziel war es, dass der Score, welcher bereits während des Spielens angezeigt wird, auch auf dem Endbildschirm zu sehen ist. Dazu haben wir die "if-Statement" für die Kollision erweitert, so dass auch der Score angezeigt wird. Zudem haben wir den Endbildschirm um eine Nachricht ergänzt, so dass man das Spiel erneut starten kann. Da uns das Design noch nicht ganz überzeugt hat, haben wir das Farbschema ebenfalls verändert. Dafür gibt es eine Website, auf der man sich die gewünschte Farbe aussuchen kann und anschließend die dazugehörenden Nummern für den code erhält.
 
 <details><summary>Code</summary>
 
@@ -294,4 +294,19 @@ score_final = font.render(f'Score: {score}',False,(245,177,217)) #der erreichte 
 
 ![image](https://github.com/aliceimwonderland/The-Radiant-Escape-Stundenprotokoll/assets/111736084/a48b2d9f-2fe1-4613-9108-1d90e690d0c0)
 
+</details>
+
+Uns ist noch ein weiteres Problem aufgefallen. Sobald das Display des Spiels erscheint, startet auch die Zählung des Scores, dass ist natürlich nicht erwünscht. An diesem Fehler haben wir sehr lange geknobelt. Wir haben probiert die Startzeit zu verändern, dies hilft allerdings nicht wirklich, da der Score dann einfach nur bei z.B. -10 starten und dann hochzählt. Auch ein neuer game_active Loop hat nicht geholfen, genauso wenig wie eine recherche. Letzendlich sind wir dann auf die Idee gekommen, dass wir den Start der Scorezählung mit der Taste zum Starten des Spiels verknüpfen können. Dazu haben wir den Code an dieser Stelle umgeschrieben. Statt mit "keys.get_pressed" zu arbeiten, haben wir mit "event.type" gearbeitet. So kann man zusätzlich noch mit einem "if-Statement" arbeiten. So konnten wir die Bedingung hinzufügen, dass der Score erst startet, sobald sich das Hindernis auf die Figur zu bewegt.
+
+<details><summary>Code</summary>
+
+ ```python
+
+ else:
+           if event.type == pygame.KEYDOWN and event.key == pygame.K_d:
+               game_active = True 
+               hindernis_rect.left = 900 
+               start_time = int(pygame.time.get_ticks() / 1000)
+
+  ``` 
 </details>
