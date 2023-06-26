@@ -42,8 +42,8 @@ Ich habe angefangen, unseren Helden in das Spiel einzubauen.
 
 #Erstellung des characters (Figur, Position)
 character = pygame.image.load('Bilder/character.png') #Installation eines Bildes für die Figur
-character_rect = character.get_rect(topleft = (200,490)) #Erstellen eines Rechtecks zum besseren bewegen der Figur
-character_gravity = 0 #Ausgangsposition der Figur
+character_rect = character.get_rect(topleft = (200,490)) #Erstellen eines Rechtecks zum besseren Bewegen der Figur
+character_gravity = 0 #Erstellung der Schwerkraft-Variable
 
 ```
 
@@ -100,8 +100,48 @@ Leider ist bei dem Schritt, dass man die Figur nach recht und links steuern kann
 
 <h2>Woche 5 (24.4. - 30.04.)</h2>
 
-Heute habe ich, Alicia, an dem Spiel weitergearbeitet und es um ein Hindernis erweitert. 
+Diese Woche habe ich, Alicia, an dem Spiel weitergearbeitet und es um ein Hindernis erweitert. 
 Zuerst habe ich ein passendes Bild ausgesucht. Da wir uns für ein apokalyptisches Thema entschieden haben, ist das Hindernis ein Fass mit radioaktivem Material. Die erste Schwierigkeit bestand darin, dass das Bild beim Start des Spiels nicht angezeigt wurde. Ich habe dann recherchiert, aber keinen Fehler in unserem Code gefunden. Also habe ich verschiedene Bilddateien ausprobiert, aber es gab keinen Unterschied. Schließlich bin ich selbst auf die Lösung gekommen. An einer anderen Stelle im Code muss noch einmal angegeben werden, an welcher Stelle im Spiel das Bild erscheinen soll, aber das hatte ich vergessen. Nachdem ich die Anweisung ergänzt hatte, wurde das Hindernis angezeigt, und ich habe das Bild an der vorgesehenen Stelle platziert und es, wie die Figur zuvor, in ein Rechteck verwandelt, um die Arbeit später zu erleichtern.
+
+<details><summary>Code</summary>
+
+```python
+
+#Erstellung des Hindernises
+hindernis = pygame.image.load('Bilder/hindernis.png') #Installation des Bildes für das Hindernis
+hindernis_rect = hindernis.get_rect(topleft = (500,510 ))#Erstellen einses Rechtecks
+
+```
+In unserem "while True" Lopp müssen wir dann noch folgendes ergänzen:
+
+```python
+
+screen.blit(surface_himmel,(0,0)) #Himmel wird auf dem Display angezeigt
+
+```
+ 
+</details>
+
+Zudem haben wir dieses Woche ebenfalls die Bewegung des Hindernises programmiert. Diese ist ähnlich aufgebaut, wie die Bewegung der Figur. Wir haben eine Variable erstellt und diese zuerst gelich null gesetzt. Später im Code haben wir diese Variable dann mit dem Hindenis verbunden und pro Loop um 5 erhöht.
+
+<details><summary>Code</summary>
+
+```python
+
+hindernis_left = 0 #Erstellung der Bewegungs-Variable für das Hindernis
+
+```
+
+Im "while True" Loop:
+
+```python
+
+elif keys[pygame.K_a]:  #bei Tastendruck um 5 nach links
+  hindernis_left = -5
+
+ ```
+ 
+</details>
 
 <h2>Woche 6 (01.05. - 07.05.) </h2>
 
