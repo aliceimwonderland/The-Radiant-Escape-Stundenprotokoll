@@ -302,13 +302,12 @@ Uns ist noch ein weiteres Problem aufgefallen. Sobald das Display des Spiels ers
 
  ```python
 
- else:
-           if event.type == pygame.KEYDOWN and event.key == pygame.K_d:
-               game_active = True 
-               hindernis_rect.left = 900 
-               start_time = int(pygame.time.get_ticks() / 1000)
+elif event.type == pygame.KEYDOWN and event.key == pygame.K_a:
+                hindernis_left = -5                                              #bei Tastendruck um 5 nach links
+                start_time = int(pygame.time.get_ticks() / 1000)
 
-  ``` 
+  ```
+
 </details>
 
 Unsere Figur kann mitlerweile zwar nicht mehr über den Bildschirmrand hinausspringen, die Leertaste kann allerdings dauerhaft gedrückt werden, um so problemlos alle Tonnen überspringen zu können. Um dies zu verhindern haben wir auch hier den Code von "keys.get_pressed" zu "event.type" geändert. Wir wollen nun messen, wann die Taste losgelassen wird. Erst wenn dies geschehen ist, springt die Figur.
