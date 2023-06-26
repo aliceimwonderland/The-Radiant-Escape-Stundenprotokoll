@@ -17,13 +17,37 @@
 Heute haben wir mit unserem Projekt begonnen. Dazu haben wir Python und die Pygame-Bibliothek sowie VSCode (zur Visualisierung unseres Codes) installiert. 
 Wir haben angefangen, einen Bildschirm zu erstellen, auf dem unser Spiel später laufen wird. Außerdem haben wir einen Hintergrund erstellt, der die Farbe braun hat, passend zu unserem Spielthema, auf dem die Charaktere später laufen werden. Zuletzt haben wir die Geschwindigkeit unseres Spiels auf 60fps (frames per second) eingestellt.
 
+<details><summary>Code</summary>
+  
+```python
+
+ colour_surface = pygame.Surface((900,120)) #Boden im Hintergrund des Spiels 
+ colour_surface.fill('burlywood4')           #Farbe des Bodens
+ surface_himmel = pygame.Surface((900,580)) #Hintergrund des Spiels
+ surface_himmel.fill('cornsilk3')            #Farbe des Hintergrundes 
+
+```
+  
+  </details>
+  
 <h2> Seminartag 1 (05.04.)</h2>
 
 Da Arvid leider krank war, habe ich, Alicia, alleine an dem Projekt weitergearbeitet. Um mir zu helfen, habe ich mir ein Video angeschaut, aus dem auch die Figur stammt. Außerdem habe ich den Code für uns umgeschrieben.
 
-Ich habe angefangen, unseren Helden in das Spiel einzubauen. Es ist eine Figur aus dem Internet. 
+Ich habe angefangen, unseren Helden in das Spiel einzubauen. 
 
-![image](https://user-images.githubusercontent.com/111736084/233835663-19765f3c-5403-44cc-8d7f-1e1ffc6ab41c.png)
+<details><summary>Code</summary>
+  
+```python
+
+#Erstellung des characters (Figur, Position)
+character = pygame.image.load('Bilder/character.png') #Installation eines Bildes für die Figur
+character_rect = character.get_rect(topleft = (200,490)) #Erstellen eines Rechtecks zum besseren bewegen der Figur
+character_gravity = 0 #Ausgangsposition der Figur
+
+```
+
+</details>
 
 Zuerst wird die Figur auf unsere Oberfläche projiziert. Um später leichter damit arbeiten zu können, erstelle ich ein Rechteck und lege die Startposition fest. Die Position selbst wird sich im Laufe des Spiels natürlich noch ändern. 
 
