@@ -206,18 +206,6 @@ score = display_score()
 
 Ich habe das Jump and Run-Spiel getestet, um sicherzustellen, dass der Score korrekt berechnet und angezeigt wird. Dabei habe ich verschiedene Testfälle durchgespielt, um sicherzugehen, dass die Score-Berechnung für verschiedene Zeitwerte ordnungsgemäß funktioniert. <br>
 
-Außerdem habe ich die Springbewegung unserer Figur begrenzt, damit diese nach oben hin nicht über den Bildschrimrand hinausspringen kann.
-
-<details><summary>Code</summary>
-
-```python
-
- if character_rect.top <= 300: character_rect.top = 450 #Figur springt nicht über den Bildschirmrand hinaus
-
- ```
- 
-</details>
-
 Damit unser Spiel nicht nach einem Hindernis einfach beendet ist, wird dieses, sobald es einen bestimmten Punkt erreicht, auf einen neuen Punkt gesetzt, und erscheint so wieder im Spiel.
 
 <details><summary>Code</summary>
@@ -230,10 +218,37 @@ Damit unser Spiel nicht nach einem Hindernis einfach beendet ist, wird dieses, s
  
 </details>
 
+Bisher passiert nichts, sobald sich unsere Firgur und das Hinerniss berühren. Wenn die Figur mit dem Hinderniss kollidiert soll der Spieler zu einem Endbildschirm weiter geführt werden, der rot ist. Am Anfang hatten wir das Problem, dass unser Endbildschrim nur angezeigt wurde, während der Kollision. Sobald unsere figur das Hindernis allerdings passiert hatte, konnte man normal weiterspielen. Um diesen Fehler zu beheben, haben wir uns erneut das YouTube Video angeguckt, mit dem wir auch zu begin gearbeitet hatten. In diesem Viedo wurde erklärt, dass man mit einer Variable "game active" arbeiten muss, damit der Endbildschirm dauerhaft angezeigt wird. Sollte die Figur mit dem Hindernis kollidieren, wird diese Variable auf "False" gesetzt und der Endbildschirm angezeigt.
+
+<details><summary>Code</summary>
+  
+ ```python
+  
+         #Kollision
+        if character_rect.colliderect(hindernis_rect): 
+            game_active = False
+    else:
+        screen.fill('red')
+        screen.blit(score_end,end_rect)  
+  
+  ``` 
+</details>
 
 <h2>Woche 8 (22.05.-28.05.)</h2>
 
 Wie haben den finalen Namen für unser Spiel ausgesucht. Bisher hieß dieses "Rump and Jun". Dieser Name war allerdings zu einfallslos, daher haben wir beschlossen das Spiel "The Radiant Escape" zu nennen. Dieser Name bezieht sich sowohl auf die Art unseres Spiels als auch auf die Hintergrundgeschiechte mit der radioaktiv versäuchten Welt.
+
+Außerdem haben wir die Springbewegung unserer Figur begrenzt, damit diese nach oben hin nicht über den Bildschrimrand hinausspringen kann.
+
+<details><summary>Code</summary>
+
+```python
+
+ if character_rect.top <= 300: character_rect.top = 450 #Figur springt nicht über den Bildschirmrand hinaus
+
+ ```
+ 
+</details>
 
 <h2>Woche 9 (29.05.- 04.06.)</h2>
 
