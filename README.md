@@ -21,8 +21,10 @@ Wir haben angefangen, einen Bildschirm zu erstellen, auf dem unser Spiel später
   
 ```python
 
- colour_surface = pygame.Surface((900,120)) #Boden im Hintergrund des Spiels 
+ colour_surface = pygame.Surface((900,100)) #Boden im Hintergrund des Spiels 
  colour_surface.fill('burlywood4')           #Farbe des Bodens
+colour_surface2 = pygame.Surface((900,20)) #Boden im Hintergrund des Spiels 2.Teil 
+ colour_surface2.fill('burlywood3')           #Farbe des Bodens
  surface_himmel = pygame.Surface((900,580)) #Hintergrund des Spiels
  surface_himmel.fill('cornsilk3')            #Farbe des Hintergrundes 
 
